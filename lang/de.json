@@ -9,6 +9,7 @@
     "auth.login.google": "Mit Google anmelden",
     "auth.login.infomaniak": "Mit Infomaniak anmelden",
     "auth.login.zitadel": "Mit Zitadel anmelden",
+    "auth.login.authentik": "Mit Authentik anmelden",
     "auth.already_registered": "Bereits registriert?",
     "auth.confirm_password": "Passwort bestätigen",
     "auth.forgot_password_link": "Passwort vergessen?",
@@ -31,5 +32,13 @@
     "input.code": "Einmalcode",
     "input.recovery_code": "Wiederherstellungscode",
     "button.save": "Speichern",
-    "repository.url": "<span class='text-helper'>Beispiele</span><br>Für öffentliche Repositories benutze <span class='text-helper'>https://...</span>.<br>Für private Repositories benutze <span class='text-helper'>git@...</span>.<br><br>https://github.com/coollabsio/coolify-examples <span class='text-helper'>main</span> Branch wird ausgewählt<br>https://github.com/coollabsio/coolify-examples/tree/nodejs-fastify <span class='text-helper'>nodejs-fastify</span> Branch wird ausgewählt.<br>https://gitea.com/sedlav/expressjs.git <span class='text-helper'>main</span> Branch wird ausgewählt.<br>https://gitlab.com/andrasbacsai/nodejs-example.git <span class='text-helper'>main</span> Branch wird ausgewählt."
+    "repository.url": "<span class='text-helper'>Beispiele</span><br>Für öffentliche Repositories benutze <span class='text-helper'>https://...</span>.<br>Für private Repositories benutze <span class='text-helper'>git@...</span>.<br><br>https://github.com/coollabsio/coolify-examples <span class='text-helper'>main</span> Branch wird ausgewählt<br>https://github.com/coollabsio/coolify-examples/tree/nodejs-fastify <span class='text-helper'>nodejs-fastify</span> Branch wird ausgewählt.<br>https://gitea.com/sedlav/expressjs.git <span class='text-helper'>main</span> Branch wird ausgewählt.<br>https://gitlab.com/andrasbacsai/nodejs-example.git <span class='text-helper'>main</span> Branch wird ausgewählt.",
+    "service.stop": "Dieser Dienst wird beendet.",
+    "resource.docker_cleanup": "Docker Cleanup ausführen (unbenutzte Images und Builder-Cache entfernen).",
+    "resource.non_persistent": "Alle nicht-persistenten Daten werden gelöscht.",
+    "resource.delete_volumes": "Alle mit dieser Ressource verbundenen Volumes dauerhaft löschen.",
+    "resource.delete_connected_networks": "Alle nicht-vordefinierten Netzwerke, die mit dieser Ressource verbunden sind, dauerhaft löschen.",
+    "resource.delete_configurations": "Alle Konfigurationsdateien dauerhaft vom Server löschen.",
+    "database.delete_backups_locally": "Alle Backups werden dauerhaft aus dem lokalen Speicher gelöscht.",
+    "warning.sslipdomain": "Ihre Konfiguration wurde gespeichert, aber eine sslip-Domain mit HTTPS wird <span class='dark:text-red-500 text-red-500 font-bold'>NICHT</span> empfohlen, da Let's Encrypt-Server mit dieser öffentlichen Domain ratenbegrenzt sind (die SSL-Zertifikatsvalidierung wird fehlschlagen). <br><br>Verwenden Sie stattdessen Ihre eigene Domain."
 }

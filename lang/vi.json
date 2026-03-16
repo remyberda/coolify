@@ -8,6 +8,8 @@
     "auth.login.gitlab": "Đăng Nhập Bằng Gitlab",
     "auth.login.google": "Đăng Nhập Bằng Google",
     "auth.login.infomaniak": "Đăng Nhập Bằng Infomaniak",
+    "auth.login.authentik": "Đăng nhập với Authentik",
+    "auth.login.zitadel": "Đăng nhập với Zitadel",
     "auth.already_registered": "Đã đăng ký?",
     "auth.confirm_password": "Nhập lại mật khẩu",
     "auth.forgot_password_link": "Quên mật khẩu?",
@@ -30,5 +32,13 @@
     "input.code": "One-time code",
     "input.recovery_code": "Mã khôi phục",
     "button.save": "Lưu",
-    "repository.url": "<span class='text-helper'>Ví dụ</span><br>Với repo công khai, sử dụng <span class='text-helper'>https://...</span>.<br>Với repo riêng tư, sử dụng <span class='text-helper'>git@...</span>.<br><br>https://github.com/coollabsio/coolify-examples <span class='text-helper'>nhánh chính</span> sẽ được chọn<br>https://github.com/coollabsio/coolify-examples/tree/nodejs-fastify <span class='text-helper'>nhánh nodejs-fastify</span> sẽ được chọn.<br>https://gitea.com/sedlav/expressjs.git <span class='text-helper'>nhánh chính</span> sẽ được chọn.<br>https://gitlab.com/andrasbacsai/nodejs-example.git <span class='text-helper'>nhánh chính</span> sẽ được chọn."
+    "repository.url": "<span class='text-helper'>Ví dụ</span><br>Với repo công khai, sử dụng <span class='text-helper'>https://...</span>.<br>Với repo riêng tư, sử dụng <span class='text-helper'>git@...</span>.<br><br>https://github.com/coollabsio/coolify-examples <span class='text-helper'>nhánh chính</span> sẽ được chọn<br>https://github.com/coollabsio/coolify-examples/tree/nodejs-fastify <span class='text-helper'>nhánh nodejs-fastify</span> sẽ được chọn.<br>https://gitea.com/sedlav/expressjs.git <span class='text-helper'>nhánh chính</span> sẽ được chọn.<br>https://gitlab.com/andrasbacsai/nodejs-example.git <span class='text-helper'>nhánh chính</span> sẽ được chọn.",
+    "service.stop": "Dịch vụ này sẽ bị dừng.",
+    "resource.docker_cleanup": "Chạy Docker Cleanup (xoá các image không dùng và cache builder).",
+    "resource.non_persistent": "Tất cả dữ liệu không bền vững sẽ bị xoá.",
+    "resource.delete_volumes": "Xoá vĩnh viễn tất cả volume liên kết với tài nguyên này.",
+    "resource.delete_connected_networks": "Xoá vĩnh viễn tất cả network không được định nghĩa trước liên kết với tài nguyên này.",
+    "resource.delete_configurations": "Xoá vĩnh viễn tất cả file cấu hình khỏi máy chủ.",
+    "database.delete_backups_locally": "Tất cả bản sao lưu sẽ bị xoá vĩnh viễn khỏi bộ nhớ cục bộ.",
+    "warning.sslipdomain": "Cấu hình của bạn đã được lưu, nhưng domain sslip với https <span class='dark:text-red-500 text-red-500 font-bold'>KHÔNG</span> được khuyến nghị, vì các máy chủ Let's Encrypt với public domain này bị giới hạn tỷ lệ (xác thực chứng chỉ SSL sẽ thất bại). <br><br>Hãy sử dụng domain của riêng bạn."
 }

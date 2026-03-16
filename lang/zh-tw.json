@@ -8,6 +8,8 @@
     "auth.login.gitlab": "使用 Gitlab 登入",
     "auth.login.google": "使用 Google 登入",
     "auth.login.infomaniak": "使用 Infomaniak 登入",
+    "auth.login.authentik": "使用 Authentik 登入",
+    "auth.login.zitadel": "使用 Zitadel 登入",
     "auth.already_registered": "已經註冊？",
     "auth.confirm_password": "確認密碼",
     "auth.forgot_password_link": "忘記密碼？",
@@ -30,5 +32,13 @@
     "input.code": "一次性代碼",
     "input.recovery_code": "恢復碼",
     "button.save": "儲存",
-    "repository.url": "<span class='text-helper'>例子</span><br>對於公共代碼倉庫，請使用 <span class='text-helper'>https://...</span>。<br>對於私有代碼倉庫，請使用 <span class='text-helper'>git@...</span>。<br><br>https://github.com/coollabsio/coolify-examples <span class='text-helper'>main</span> 分支將被選擇<br>https://github.com/coollabsio/coolify-examples/tree/nodejs-fastify <span class='text-helper'>nodejs-fastify</span> 分支將被選擇。<br>https://gitea.com/sedlav/expressjs.git <span class='text-helper'>main</span> 分支將被選擇。<br>https://gitlab.com/andrasbacsai/nodejs-example.git <span class='text-helper'>main</span> 分支將被選擇。"
+    "repository.url": "<span class='text-helper'>例子</span><br>對於公共代碼倉庫，請使用 <span class='text-helper'>https://...</span>。<br>對於私有代碼倉庫，請使用 <span class='text-helper'>git@...</span>。<br><br>https://github.com/coollabsio/coolify-examples <span class='text-helper'>main</span> 分支將被選擇<br>https://github.com/coollabsio/coolify-examples/tree/nodejs-fastify <span class='text-helper'>nodejs-fastify</span> 分支將被選擇。<br>https://gitea.com/sedlav/expressjs.git <span class='text-helper'>main</span> 分支將被選擇。<br>https://gitlab.com/andrasbacsai/nodejs-example.git <span class='text-helper'>main</span> 分支將被選擇。",
+    "service.stop": "此服務將會停止。",
+    "resource.docker_cleanup": "執行 Docker 清理 (移除未使用的映像檔與建置器快取)。",
+    "resource.non_persistent": "所有非持久性資料將被刪除。",
+    "resource.delete_volumes": "永久刪除與此資源相關的所有儲存卷。",
+    "resource.delete_connected_networks": "永久刪除與此資源相關的所有非預定義網路。",
+    "resource.delete_configurations": "永久刪除伺服器上的所有設定檔。",
+    "database.delete_backups_locally": "所有備份將從本機儲存空間永久刪除。",
+    "warning.sslipdomain": "您的設定已儲存，但 <span class='dark:text-red-500 text-red-500 font-bold'>不</span> 建議使用 sslip 網域與 HTTPS，因為 Let's Encrypt 伺服器針對此公共網域有速率限制 (SSL 憑證驗證將會失敗)。<br><br>請改用您自己的網域。"
 }
