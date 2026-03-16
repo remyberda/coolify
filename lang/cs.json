@@ -8,6 +8,8 @@
     "auth.login.gitlab": "Přihlásit se pomocí Gitlabu",
     "auth.login.google": "Přihlásit se pomocí Google",
     "auth.login.infomaniak": "Přihlásit se pomocí Infomaniak",
+    "auth.login.authentik": "Přihlásit se pomocí Authentik",
+    "auth.login.zitadel": "Přihlásit se pomocí Zitadel",
     "auth.already_registered": "Již jste registrováni?",
     "auth.confirm_password": "Potvrďte heslo",
     "auth.forgot_password_link": "Zapomněli jste heslo?",
@@ -30,5 +32,13 @@
     "input.code": "Jednorázový kód",
     "input.recovery_code": "Obnovovací kód",
     "button.save": "Uložit",
-    "repository.url": "<span class='text-helper'>Příklady</span><br>Pro veřejné repozitáře, použijte <span class='text-helper'>https://...</span>.<br>Pro soukromé repozitáře, použijte <span class='text-helper'>git@...</span>.<br><br>https://github.com/coollabsio/coolify-examples <span class='text-helper'>main</span> branch bude zvolena<br>https://github.com/coollabsio/coolify-examples/tree/nodejs-fastify <span class='text-helper'>nodejs-fastify</span> branch bude vybrána.<br>https://gitea.com/sedlav/expressjs.git <span class='text-helper'>main</span> branch vybrána.<br>https://gitlab.com/andrasbacsai/nodejs-example.git <span class='text-helper'>main</span> branch bude vybrána."
+    "repository.url": "<span class='text-helper'>Příklady</span><br>Pro veřejné repozitáře, použijte <span class='text-helper'>https://...</span>.<br>Pro soukromé repozitáře, použijte <span class='text-helper'>git@...</span>.<br><br>https://github.com/coollabsio/coolify-examples <span class='text-helper'>main</span> branch bude zvolena<br>https://github.com/coollabsio/coolify-examples/tree/nodejs-fastify <span class='text-helper'>nodejs-fastify</span> branch bude vybrána.<br>https://gitea.com/sedlav/expressjs.git <span class='text-helper'>main</span> branch vybrána.<br>https://gitlab.com/andrasbacsai/nodejs-example.git <span class='text-helper'>main</span> branch bude vybrána.",
+    "service.stop": "Tato služba bude zastavena.",
+    "resource.docker_cleanup": "Spustit čištění Dockeru (odstraní nepoužívané obrazy a cache buildů).",
+    "resource.non_persistent": "Všechna netrvalá data budou smazána.",
+    "resource.delete_volumes": "Trvale smazat všechny svazky spojené s tímto zdrojem.",
+    "resource.delete_connected_networks": "Trvale smazat všechny nedefinované sítě spojené s tímto zdrojem.",
+    "resource.delete_configurations": "Trvale smazat všechny konfigurační soubory ze serveru.",
+    "database.delete_backups_locally": "Všechny zálohy budou trvale smazány z lokálního úložiště.",
+    "warning.sslipdomain": "Vaše konfigurace je uložena, ale doména sslip s https <span class='dark:text-red-500 text-red-500 font-bold'>NENÍ</span> doporučena, protože servery Let's Encrypt s touto veřejnou doménou jsou omezeny rychlostí (validace SSL certifikátu selže). <br><br>Místo toho použijte vlastní doménu."
 }
